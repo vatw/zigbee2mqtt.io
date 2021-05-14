@@ -44,7 +44,7 @@ Save the file and restart Zigbee2MQTT.
 This device only support power measurements with an up-to-date firmware on the plug which can only be done
 via the original hub. In case of an older firmware you will only see 0 values in the measurements.
 Discussion: https://github.com/Koenkk/zigbee2mqtt/issues/809
-
+''Update'' -- as of 2021-05-14 -- OTA update pushed the latest firmware to the device- which appears now to successfully be reporting instantaneous power usage, both Current and Power.
 
 ## OTA updates
 This device supports OTA updates, for more information see [OTA updates](../information/ota_updates.md).
